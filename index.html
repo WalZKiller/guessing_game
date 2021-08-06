@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game 2</title>
+
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+
+    <div id="fullpage">
+        <div class="section centred turquoise">
+            <h1>WELCOME TO THE GUESSING GAME</h1>
+            <h2>Scroll down to continue</h2>
+        </div>
+
+        <div class="section centred yellow">
+            <h1>What color is this?</h1>
+            <button onclick="RightAnswer()">Yellow</button>
+            <button onclick="WrongAnswer()">Purple</button>
+            <button onclick="WrongAnswer()">Green</button>
+            <button onclick="WrongAnswer()">Orange</button>
+        </div>
+
+        <div class="section centred red">
+            <h1>What color is this?</h1>
+            <button onclick="WrongAnswer()">Blue</button>
+            <button onclick="RightAnswer()">Red</button>
+            <button onclick="WrongAnswer()">Cyan</button>
+            <button onclick="WrongAnswer()">Black</button>
+        </div>
+        
+        <div class="section centred green">
+            <h1>What color is this?</h1>
+            <button onclick="WrongAnswer()">Red</button>
+            <button onclick="WrongAnswer()">Blue</button>
+            <button onclick="WrongAnswer()">Black</button>
+            <button onclick="FinalRightAnswer()">Green</button>
+        </div>
+
+    </div>
+
+
+    <script src="js/fullpage.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

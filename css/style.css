@@ -1,0 +1,51 @@
+.turquoise {
+    background-color: turquoise
+}
+
+.yellow {
+    background-color: rgb(214, 214, 55)
+}
+
+.red {
+    background-color: rgb(255, 65, 65)
+}
+
+.green {
+    background-color: rgb(28, 179, 28)
+}
+
+.purple {
+    background-color: rgb(161, 30, 161)
+}
+
+.centred {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+/* @font-face {
+    font-family: Rubik;
+    src: url(Rubik-Bold.ttf);
+ }
+ 
+ * {
+    font-family: Rubik;
+    font-size: 50px;
+    color: white;
+} */
